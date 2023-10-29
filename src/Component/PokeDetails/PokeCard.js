@@ -110,6 +110,7 @@ export const PokeCard = () => {
   const searchItems = (searchValue) => {
     debouncedSearch(searchValue);
   };
+  
 
   const routeChange = (id) => {
     navigate(`/pokedetails/${id}`);

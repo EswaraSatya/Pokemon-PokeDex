@@ -1,4 +1,7 @@
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { PokeCard } from "./Component/PokeDetails/PokeCard";
+import { DetailPage } from "./Component/PokeDetails/DetailPage";
 import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
