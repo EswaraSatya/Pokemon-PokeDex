@@ -34,6 +34,7 @@
   opacity: 1;
   transition: opacity .6s ease-in-out;
   color: #6d6d6d;
+  font-size: 2.5rem;
 }
 
 .poketype {
@@ -50,7 +51,6 @@
   justify-content: center !important;
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
   margin-left: -15px;
 }
 
@@ -181,4 +181,9 @@
 .type-icon.ghost-type {
   background: #5f6dbc;
   box-shadow: 0 0 20px #5f6dbc;
+}
+
+.type-icon.normal-type {
+  background: #a0a29f;
+  box-shadow: 0 0 20px #a0a29f;
 }

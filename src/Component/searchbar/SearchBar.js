@@ -62,16 +62,14 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 function ElevationScroll(props) {
   const { children, window } = props;
-  // Note that you normally won't need to set the window ref as useScrollTrigger
-  // will default to window.
-  // This is only being set here because the demo is in an iframe.
+
   const trigger = useScrollTrigger({
     disableHysteresis: true,
-    threshold: 0,
+    threshold: 10,
     target: window ? window() : undefined,
   });
   return React.cloneElement(children, {
-    elevation: trigger ? 4 : 0,
+    elevation: trigger ? 14 : 0,
   });
 }
 const darkTheme = createTheme({
@@ -110,8 +108,8 @@ export default function TopBar(props) {
         <ThemeProvider theme={darkTheme}>
           <ElevationScroll {...props}>
             <AppBar style={{
-              height: "70px", background: 'transparent', boxShadow: 'none', backdropFilter: 'blur(5px)',
-              WebkitBackdropFilter: 'blur(5px)'
+              height: "74px", background: 'transparent', boxShadow: '0 0 10px #a0a29f', backdropFilter: 'blur(5px)',
+              WebkitBackdropFilter: 'blur(15px)'
             }}>
               < Toolbar >
                 <Search onChange={(e) => props.searchItems(e.target.value)}>
@@ -128,11 +126,18 @@ export default function TopBar(props) {
                   variant="h3"
                   noWrap
                   component="div"
-                  sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}
+                  sx={{
+                    flexGrow: 1,
+                    display: { xs: "none", sm: "block" },
+                    "&:hover": {
+                      color: "grey", // Change the color to your desired hover color
+                      // Add any other styles you want for the hover effect
+                    },
+                  }}
                   style={{
                     display: "flex",
                     flexDirection: "row-reverse",
-                    cursor:"pointer",
+                    cursor: "pointer",
                   }}
                   onClick={handleClickOpen("body")}
                 >

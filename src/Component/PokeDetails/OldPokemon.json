@@ -1,0 +1,1648 @@
+[
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/001.png",
+      "pokemontype": "Seed Pokemon",
+      "type": [
+        "Grass",
+        "Poison"
+      ],
+      "base": {
+        "HP": 45,
+        "Attack": 49,
+        "Defense": 49,
+        "SpAttack": 65,
+        "SpDefense": 65,
+        "Speed": 45
+      }
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/002.png",
+      "type": [
+        "Grass",
+        "Poison"
+      ],
+      "base": {
+        "HP": 60,
+        "Attack": 62,
+        "Defense": 63,
+        "Sp. Attack": 80,
+        "Sp. Defense": 80,
+        "Speed": 60
+      }
+    },
+    {
+      "id": 3,
+      "name": "Venusaur",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/003.png",
+      "type": [
+        "Grass",
+        "Poison"
+      ],
+      "base": {
+        "HP": 80,
+        "Attack": 82,
+        "Defense": 83,
+        "Sp. Attack": 100,
+        "Sp. Defense": 100,
+        "Speed": 80
+      }
+    },
+    {
+      "id": 4,
+      "name": "Charmander",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/004.png",
+      "type": [
+        "Fire"
+      ],
+      "base": {
+        "HP": 39,
+        "Attack": 52,
+        "Defense": 43,
+        "Sp. Attack": 60,
+        "Sp. Defense": 50,
+        "Speed": 65
+      }
+    },
+    {
+      "id": 5,
+      "name": "Charmeleon",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/005.png",
+      "type": [
+        "Fire"
+      ],
+      "base": {
+        "HP": 58,
+        "Attack": 64,
+        "Defense": 58,
+        "Sp. Attack": 80,
+        "Sp. Defense": 65,
+        "Speed": 80
+      }
+    },
+    {
+      "id": 6,
+      "name": "Charizard",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/006.png",
+      "type": [
+        "Fire",
+        "Flying"
+      ],
+      "base": {
+        "HP": 78,
+        "Attack": 84,
+        "Defense": 78,
+        "Sp. Attack": 109,
+        "Sp. Defense": 85,
+        "Speed": 100
+      }
+    },
+    {
+      "id": 7,
+      "name": "Squirtle",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/007.png",
+      "type": [
+        "Water"
+      ],
+      "base": {
+        "HP": 44,
+        "Attack": 48,
+        "Defense": 65,
+        "Sp. Attack": 50,
+        "Sp. Defense": 64,
+        "Speed": 43
+      }
+    },
+    {
+      "id": 8,
+      "name": "Wartortle",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/008.png",
+      "type": [
+        "Water"
+      ],
+      "base": {
+        "HP": 59,
+        "Attack": 63,
+        "Defense": 80,
+        "Sp. Attack": 65,
+        "Sp. Defense": 80,
+        "Speed": 58
+      }
+    },
+    {
+      "id": 9,
+      "name": "Blastoise",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/009.png",
+      "type": [
+        "Water"
+      ],
+      "base": {
+        "HP": 79,
+        "Attack": 83,
+        "Defense": 100,
+        "Sp. Attack": 85,
+        "Sp. Defense": 105,
+        "Speed": 78
+      }
+    },
+    {
+      "id": 10,
+      "name": "Caterpie",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/010.png",
+      "type": [
+        "Bug"
+      ],
+      "base": {
+        "HP": 45,
+        "Attack": 30,
+        "Defense": 35,
+        "Sp. Attack": 20,
+        "Sp. Defense": 20,
+        "Speed": 45
+      }
+    },
+    {
+      "id": 11,
+      "name": "Pidgey",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/011.png",
+      "type": [
+        "Normal",
+        "Flying"
+      ],
+      "base": {
+        "HP": 40,
+        "Attack": 45,
+        "Defense": 40,
+        "Sp. Attack": 35,
+        "Sp. Defense": 35,
+        "Speed": 56
+      }
+    },
+    {
+      "id": 12,
+      "name": "Rattata",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/012.png",
+      "type": [
+        "Normal"
+      ],
+      "base": {
+        "HP": 30,
+        "Attack": 56,
+        "Defense": 35,
+        "Sp. Attack": 25,
+        "Sp. Defense": 35,
+        "Speed": 72
+      }
+    },
+    {
+      "id": 13,
+      "name": "Spearow",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/013.png",
+      "type": [
+        "Normal",
+        "Flying"
+      ],
+      "base": {
+        "HP": 40,
+        "Attack": 60,
+        "Defense": 30,
+        "Sp. Attack": 31,
+        "Sp. Defense": 31,
+        "Speed": 70
+      }
+    },
+    {
+      "id": 14,
+      "name": "Ekans",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/014.png",
+      "type": [
+        "Poison"
+      ],
+      "base": {
+        "HP": 35,
+        "Attack": 60,
+        "Defense": 44,
+        "Sp. Attack": 40,
+        "Sp. Defense": 54,
+        "Speed": 55
+      }
+    },
+    {
+      "id": 15,
+      "name": "Pikachu",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/015.png",
+      "type": [
+        "Electric"
+      ],
+      "base": {
+        "HP": 35,
+        "Attack": 55,
+        "Defense": 40,
+        "Sp. Attack": 50,
+        "Sp. Defense": 50,
+        "Speed": 90
+      }
+    },
+    {
+      "id": 16,
+      "name": "Raichu",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/016.png",
+      "type": [
+        "Electric"
+      ],
+      "base": {
+        "HP": 60,
+        "Attack": 90,
+        "Defense": 55,
+        "Sp. Attack": 90,
+        "Sp. Defense": 80,
+        "Speed": 110
+      }
+    },
+    {
+      "id": 17,
+      "name": "Sandshrew",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/017.png",
+      "type": [
+        "Ground"
+      ],
+      "base": {
+        "HP": 50,
+        "Attack": 75,
+        "Defense": 85,
+        "Sp. Attack": 20,
+        "Sp. Defense": 30,
+        "Speed": 40
+      }
+    },
+    {
+      "id": 18,
+      "name": "Sandslash",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/018.png",
+      "type": [
+        "Ground"
+      ],
+      "base": {
+        "HP": 75,
+        "Attack": 100,
+        "Defense": 110,
+        "Sp. Attack": 45,
+        "Sp. Defense": 55,
+        "Speed": 65
+      }
+    },
+    {
+      "id": 19,
+      "name": "Nidoran♀",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/019.png",
+      "type": [
+        "Poison"
+      ],
+      "base": {
+        "HP": 55,
+        "Attack": 47,
+        "Defense": 52,
+        "Sp. Attack": 40,
+        "Sp. Defense": 40,
+        "Speed": 41
+      }
+    },
+    {
+      "id": 20,
+      "name": "Nidorina",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/020.png",
+      "type": [
+        "Poison"
+      ],
+      "base": {
+        "HP": 70,
+        "Attack": 62,
+        "Defense": 67,
+        "Sp. Attack": 55,
+        "Sp. Defense": 55,
+        "Speed": 56
+      }
+    },
+    {
+      "id": 21,
+      "name": "Nidoqueen",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/021.png",
+      "type": [
+        "Poison",
+        "Ground"
+      ],
+      "base": {
+        "HP": 90,
+        "Attack": 92,
+        "Defense": 87,
+        "Sp. Attack": 75,
+        "Sp. Defense": 85,
+        "Speed": 76
+      }
+    },
+    {
+      "id": 22,
+      "name": "Nidoran♂",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/022.png",
+      "type": [
+        "Poison"
+      ],
+      "base": {
+        "HP": 46,
+        "Attack": 57,
+        "Defense": 40,
+        "Sp. Attack": 40,
+        "Sp. Defense": 40,
+        "Speed": 50
+      }
+    },
+    {
+      "id": 23,
+      "name": "Nidorino",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/023.png",
+      "type": [
+        "Poison"
+      ],
+      "base": {
+        "HP": 61,
+        "Attack": 72,
+        "Defense": 57,
+        "Sp. Attack": 55,
+        "Sp. Defense": 55,
+        "Speed": 65
+      }
+    },
+    {
+      "id": 24,
+      "name": "Nidoking",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/024.png",
+      "type": [
+        "Poison",
+        "Ground"
+      ],
+      "base": {
+        "HP": 81,
+        "Attack": 102,
+        "Defense": 77,
+        "Sp. Attack": 85,
+        "Sp. Defense": 75,
+        "Speed": 85
+      }
+    },
+    {
+      "id": 25,
+      "name": "Clefairy",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/025.png",
+      "type": [
+        "Fairy"
+      ],
+      "base": {
+        "HP": 70,
+        "Attack": 45,
+        "Defense": 48,
+        "Sp. Attack": 60,
+        "Sp. Defense": 65,
+        "Speed": 35
+      }
+    },
+    {
+      "id": 26,
+      "name": "Clefable",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/026.png",
+      "type": [
+        "Fairy"
+      ],
+      "base": {
+        "HP": 95,
+        "Attack": 70,
+        "Defense": 73,
+        "Sp. Attack": 95,
+        "Sp. Defense": 90,
+        "Speed": 60
+      }
+    },
+    {
+      "id": 27,
+      "name": "Vulpix",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/027.png",
+      "type": [
+        "Fire"
+      ],
+      "base": {
+        "HP": 38,
+        "Attack": 41,
+        "Defense": 40,
+        "Sp. Attack": 50,
+        "Sp. Defense": 65,
+        "Speed": 65
+      }
+    },
+    {
+      "id": 28,
+      "name": "Ninetales",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/028.png",
+      "type": [
+        "Fire"
+      ],
+      "base": {
+        "HP": 73,
+        "Attack": 76,
+        "Defense": 75,
+        "Sp. Attack": 81,
+        "Sp. Defense": 100,
+        "Speed": 100
+      }
+    },
+    {
+      "id": 29,
+      "name": "Jigglypuff",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/029.png",
+      "type": [
+        "Normal",
+        "Fairy"
+      ],
+      "base": {
+        "HP": 115,
+        "Attack": 45,
+        "Defense": 20,
+        "Sp. Attack": 45,
+        "Sp. Defense": 25,
+        "Speed": 20
+      }
+    },
+    {
+      "id": 30,
+      "name": "Wigglytuff",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/030.png",
+      "type": [
+        "Normal",
+        "Fairy"
+      ],
+      "base": {
+        "HP": 140,
+        "Attack": 70,
+        "Defense": 45,
+        "Sp. Attack": 85,
+        "Sp. Defense": 50,
+        "Speed": 45
+      }
+    },
+    {
+      "id": 31,
+      "name": "Nidoran♀",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/031.png",
+      "type": [
+        "Poison"
+      ],
+      "base": {
+        "HP": 55,
+        "Attack": 47,
+        "Defense": 52,
+        "Sp. Attack": 40,
+        "Sp. Defense": 40,
+        "Speed": 41
+      }
+    },
+    {
+      "id": 32,
+      "name": "Nidorina",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/032.png",
+      "type": [
+        "Poison"
+      ],
+      "base": {
+        "HP": 70,
+        "Attack": 62,
+        "Defense": 67,
+        "Sp. Attack": 55,
+        "Sp. Defense": 55,
+        "Speed": 56
+      }
+    },
+    {
+      "id": 33,
+      "name": "Nidoqueen",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/033.png",
+      "type": [
+        "Poison",
+        "Ground"
+      ],
+      "base": {
+        "HP": 90,
+        "Attack": 92,
+        "Defense": 87,
+        "Sp. Attack": 75,
+        "Sp. Defense": 85,
+        "Speed": 76
+      }
+    },
+    {
+      "id": 34,
+      "name": "Nidoran♂",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/034.png",
+      "type": [
+        "Poison"
+      ],
+      "base": {
+        "HP": 46,
+        "Attack": 57,
+        "Defense": 40,
+        "Sp. Attack": 40,
+        "Sp. Defense": 40,
+        "Speed": 50
+      }
+    },
+    {
+      "id": 35,
+      "name": "Nidorino",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/035.png",
+      "type": [
+        "Poison"
+      ],
+      "base": {
+        "HP": 61,
+        "Attack": 72,
+        "Defense": 57,
+        "Sp. Attack": 55,
+        "Sp. Defense": 55,
+        "Speed": 65
+      }
+    },
+    {
+      "id": 36,
+      "name": "Nidoking",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/036.png",
+      "type": [
+        "Poison",
+        "Ground"
+      ],
+      "base": {
+        "HP": 81,
+        "Attack": 102,
+        "Defense": 77,
+        "Sp. Attack": 85,
+        "Sp. Defense": 75,
+        "Speed": 85
+      }
+    },
+    {
+      "id": 37,
+      "name": "Clefairy",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/037.png",
+      "type": [
+        "Fairy"
+      ],
+      "base": {
+        "HP": 70,
+        "Attack": 45,
+        "Defense": 48,
+        "Sp. Attack": 60,
+        "Sp. Defense": 65,
+        "Speed": 35
+      }
+    },
+    {
+      "id": 38,
+      "name": "Clefable",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/038.png",
+      "type": [
+        "Fairy"
+      ],
+      "base": {
+        "HP": 95,
+        "Attack": 70,
+        "Defense": 73,
+        "Sp. Attack": 95,
+        "Sp. Defense": 90,
+        "Speed": 60
+      }
+    },
+    {
+      "id": 39,
+      "name": "Vulpix",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/039.png",
+      "type": [
+        "Fire"
+      ],
+      "base": {
+        "HP": 38,
+        "Attack": 41,
+        "Defense": 40,
+        "Sp. Attack": 50,
+        "Sp. Defense": 65,
+        "Speed": 65
+      }
+    },
+    {
+      "id": 40,
+      "name": "Ninetales",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/040.png",
+      "type": [
+        "Fire"
+      ],
+      "base": {
+        "HP": 73,
+        "Attack": 76,
+        "Defense": 75,
+        "Sp. Attack": 81,
+        "Sp. Defense": 100,
+        "Speed": 100
+      }
+    },
+    {
+      "id": 41,
+      "name": "Jigglypuff",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/041.png",
+      "type": [
+        "Normal",
+        "Fairy"
+      ],
+      "base": {
+        "HP": 115,
+        "Attack": 45,
+        "Defense": 20,
+        "Sp. Attack": 45,
+        "Sp. Defense": 25,
+        "Speed": 20
+      }
+    },
+    {
+      "id": 42,
+      "name": "Wigglytuff",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/042.png",
+      "type": [
+        "Normal",
+        "Fairy"
+      ],
+      "base": {
+        "HP": 140,
+        "Attack": 70,
+        "Defense": 45,
+        "Sp. Attack": 85,
+        "Sp. Defense": 50,
+        "Speed": 45
+      }
+    },
+    {
+      "id": 43,
+      "name": "Zubat",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/043.png",
+      "type": [
+        "Poison",
+        "Flying"
+      ],
+      "base": {
+        "HP": 40,
+        "Attack": 45,
+        "Defense": 35,
+        "Sp. Attack": 30,
+        "Sp. Defense": 40,
+        "Speed": 55
+      }
+    },
+    {
+      "id": 44,
+      "name": "Golbat",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/044.png",
+      "type": [
+        "Poison",
+        "Flying"
+      ],
+      "base": {
+        "HP": 75,
+        "Attack": 80,
+        "Defense": 70,
+        "Sp. Attack": 65,
+        "Sp. Defense": 75,
+        "Speed": 90
+      }
+    },
+    {
+      "id": 45,
+      "name": "Oddish",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/045.png",
+      "type": [
+        "Grass",
+        "Poison"
+      ],
+      "base": {
+        "HP": 45,
+        "Attack": 50,
+        "Defense": 55,
+        "Sp. Attack": 75,
+        "Sp. Defense": 65,
+        "Speed": 30
+      }
+    },
+    {
+      "id": 46,
+      "name": "Gloom",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/046.png",
+      "type": [
+        "Grass",
+        "Poison"
+      ],
+      "base": {
+        "HP": 60,
+        "Attack": 65,
+        "Defense": 70,
+        "Sp. Attack": 85,
+        "Sp. Defense": 75,
+        "Speed": 40
+      }
+    },
+    {
+      "id": 47,
+      "name": "Vileplume",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/047.png",
+      "type": [
+        "Grass",
+        "Poison"
+      ],
+      "base": {
+        "HP": 75,
+        "Attack": 80,
+        "Defense": 85,
+        "Sp. Attack": 110,
+        "Sp. Defense": 90,
+        "Speed": 50
+      }
+    },
+    {
+      "id": 48,
+      "name": "Paras",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/048.png",
+      "type": [
+        "Bug",
+        "Grass"
+      ],
+      "base": {
+        "HP": 35,
+        "Attack": 70,
+        "Defense": 55,
+        "Sp. Attack": 45,
+        "Sp. Defense": 55,
+        "Speed": 25
+      }
+    },
+    {
+      "id": 49,
+      "name": "Parasect",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/049.png",
+      "type": [
+        "Bug",
+        "Grass"
+      ],
+      "base": {
+        "HP": 60,
+        "Attack": 95,
+        "Defense": 80,
+        "Sp. Attack": 60,
+        "Sp. Defense": 80,
+        "Speed": 30
+      }
+    },
+    {
+      "id": 50,
+      "name": "Venonat",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/050.png",
+      "type": [
+        "Bug",
+        "Poison"
+      ],
+      "base": {
+        "HP": 60,
+        "Attack": 55,
+        "Defense": 50,
+        "Sp. Attack": 40,
+        "Sp. Defense": 55,
+        "Speed": 45
+      }
+    },
+    {
+      "id": 51,
+      "name": "Venomoth",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/051.png",
+      "type": [
+        "Bug",
+        "Poison"
+      ],
+      "base": {
+        "HP": 70,
+        "Attack": 65,
+        "Defense": 60,
+        "Sp. Attack": 90,
+        "Sp. Defense": 75,
+        "Speed": 90
+      }
+    },
+    {
+      "id": 52,
+      "name": "Diglett",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/052.png",
+      "type": [
+        "Ground"
+      ],
+      "base": {
+        "HP": 10,
+        "Attack": 55,
+        "Defense": 25,
+        "Sp. Attack": 35,
+        "Sp. Defense": 45,
+        "Speed": 95
+      }
+    },
+    {
+      "id": 53,
+      "name": "Dugtrio",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/053.png",
+      "type": [
+        "Ground"
+      ],
+      "base": {
+        "HP": 35,
+        "Attack": 80,
+        "Defense": 50,
+        "Sp. Attack": 50,
+        "Sp. Defense": 70,
+        "Speed": 120
+      }
+    },
+    {
+      "id": 54,
+      "name": "Meowth",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/054.png",
+      "type": [
+        "Normal"
+      ],
+      "base": {
+        "HP": 40,
+        "Attack": 45,
+        "Defense": 35,
+        "Sp. Attack": 40,
+        "Sp. Defense": 40,
+        "Speed": 90
+      }
+    },
+    {
+      "id": 55,
+      "name": "Persian",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/055.png",
+      "type": [
+        "Normal"
+      ],
+      "base": {
+        "HP": 65,
+        "Attack": 70,
+        "Defense": 60,
+        "Sp. Attack": 65,
+        "Sp. Defense": 65,
+        "Speed": 115
+      }
+    },
+    {
+      "id": 56,
+      "name": "Psyduck",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/056.png",
+      "type": [
+        "Water"
+      ],
+      "base": {
+        "HP": 50,
+        "Attack": 52,
+        "Defense": 48,
+        "Sp. Attack": 65,
+        "Sp. Defense": 50,
+        "Speed": 55
+      }
+    },
+    {
+      "id": 57,
+      "name": "Golduck",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/057.png",
+      "type": [
+        "Water"
+      ],
+      "base": {
+        "HP": 80,
+        "Attack": 82,
+        "Defense": 78,
+        "Sp. Attack": 95,
+        "Sp. Defense": 80,
+        "Speed": 85
+      }
+    },
+    {
+      "id": 58,
+      "name": "Mankey",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/058.png",
+      "type": [
+        "Fighting"
+      ],
+      "base": {
+        "HP": 40,
+        "Attack": 80,
+        "Defense": 35,
+        "Sp. Attack": 35,
+        "Sp. Defense": 45,
+        "Speed": 70
+      }
+    },
+    {
+      "id": 59,
+      "name": "Primeape",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/059.png",
+      "type": [
+        "Fighting"
+      ],
+      "base": {
+        "HP": 65,
+        "Attack": 105,
+        "Defense": 60,
+        "Sp. Attack": 60,
+        "Sp. Defense": 70,
+        "Speed": 95
+      }
+    },
+    {
+      "id": 60,
+      "name": "Growlithe",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/060.png",
+      "type": [
+        "Fire"
+      ],
+      "base": {
+        "HP": 55,
+        "Attack": 70,
+        "Defense": 45,
+        "Sp. Attack": 70,
+        "Sp. Defense": 50,
+        "Speed": 60
+      }
+    },
+    {
+      "id": 61,
+      "name": "Arcanine",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/061.png",
+      "type": [
+        "Fire"
+      ],
+      "base": {
+        "HP": 90,
+        "Attack": 110,
+        "Defense": 80,
+        "Sp. Attack": 100,
+        "Sp. Defense": 80,
+        "Speed": 95
+      }
+    },
+    {
+      "id": 62,
+      "name": "Poliwag",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/062.png",
+      "type": [
+        "Water"
+      ],
+      "base": {
+        "HP": 40,
+        "Attack": 50,
+        "Defense": 40,
+        "Sp. Attack": 40,
+        "Sp. Defense": 40,
+        "Speed": 90
+      }
+    },
+    {
+      "id": 63,
+      "name": "Poliwhirl",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/063.png",
+      "type": [
+        "Water"
+      ],
+      "base": {
+        "HP": 65,
+        "Attack": 65,
+        "Defense": 65,
+        "Sp. Attack": 50,
+        "Sp. Defense": 50,
+        "Speed": 90
+      }
+    },
+    {
+      "id": 64,
+      "name": "Poliwrath",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/064.png",
+      "type": [
+        "Water",
+        "Fighting"
+      ],
+      "base": {
+        "HP": 90,
+        "Attack": 95,
+        "Defense": 95,
+        "Sp. Attack": 70,
+        "Sp. Defense": 90,
+        "Speed": 70
+      }
+    },
+    {
+      "id": 65,
+      "name": "Abra",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/065.png",
+      "type": [
+        "Psychic"
+      ],
+      "base": {
+        "HP": 25,
+        "Attack": 20,
+        "Defense": 15,
+        "Sp. Attack": 105,
+        "Sp. Defense": 55,
+        "Speed": 90
+      }
+    },
+    {
+      "id": 66,
+      "name": "Kadabra",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/066.png",
+      "type": [
+        "Psychic"
+      ],
+      "base": {
+        "HP": 40,
+        "Attack": 35,
+        "Defense": 30,
+        "Sp. Attack": 120,
+        "Sp. Defense": 70,
+        "Speed": 105
+      }
+    },
+    {
+      "id": 67,
+      "name": "Alakazam",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/067.png",
+      "type": [
+        "Psychic"
+      ],
+      "base": {
+        "HP": 55,
+        "Attack": 50,
+        "Defense": 45,
+        "Sp. Attack": 135,
+        "Sp. Defense": 95,
+        "Speed": 120
+      }
+    },
+    {
+      "id": 68,
+      "name": "Machop",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/068.png",
+      "type": [
+        "Fighting"
+      ],
+      "base": {
+        "HP": 70,
+        "Attack": 80,
+        "Defense": 50,
+        "Sp. Attack": 35,
+        "Sp. Defense": 35,
+        "Speed": 35
+      }
+    },
+    {
+      "id": 69,
+      "name": "Machoke",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/069.png",
+      "type": [
+        "Fighting"
+      ],
+      "base": {
+        "HP": 80,
+        "Attack": 100,
+        "Defense": 70,
+        "Sp. Attack": 50,
+        "Sp. Defense": 60,
+        "Speed": 45
+      }
+    },
+    {
+      "id": 70,
+      "name": "Machamp",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/070.png",
+      "type": [
+        "Fighting"
+      ],
+      "base": {
+        "HP": 90,
+        "Attack": 130,
+        "Defense": 80,
+        "Sp. Attack": 65,
+        "Sp. Defense": 85,
+        "Speed": 55
+      }
+    },
+    {
+      "id": 71,
+      "name": "Bellsprout",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/071.png",
+      "type": [
+        "Grass",
+        "Poison"
+      ],
+      "base": {
+        "HP": 50,
+        "Attack": 75,
+        "Defense": 35,
+        "Sp. Attack": 70,
+        "Sp. Defense": 30,
+        "Speed": 40
+      }
+    },
+    {
+      "id": 72,
+      "name": "Weepinbell",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/072.png",
+      "type": [
+        "Grass",
+        "Poison"
+      ],
+      "base": {
+        "HP": 65,
+        "Attack": 90,
+        "Defense": 50,
+        "Sp. Attack": 85,
+        "Sp. Defense": 45,
+        "Speed": 55
+      }
+    },
+    {
+      "id": 73,
+      "name": "Victreebel",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/073.png",
+      "type": [
+        "Grass",
+        "Poison"
+      ],
+      "base": {
+        "HP": 80,
+        "Attack": 105,
+        "Defense": 65,
+        "Sp. Attack": 100,
+        "Sp. Defense": 70,
+        "Speed": 70
+      }
+    },
+    {
+      "id": 74,
+      "name": "Tentacool",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/074.png",
+      "type": [
+        "Water",
+        "Poison"
+      ],
+      "base": {
+        "HP": 40,
+        "Attack": 40,
+        "Defense": 35,
+        "Sp. Attack": 50,
+        "Sp. Defense": 100,
+        "Speed": 70
+      }
+    },
+    {
+      "id": 75,
+      "name": "Tentacruel",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/075.png",
+      "type": [
+        "Water",
+        "Poison"
+      ],
+      "base": {
+        "HP": 80,
+        "Attack": 70,
+        "Defense": 65,
+        "Sp. Attack": 80,
+        "Sp. Defense": 120,
+        "Speed": 100
+      }
+    },
+    {
+      "id": 76,
+      "name": "Geodude",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/076.png",
+      "type": [
+        "Rock",
+        "Ground"
+      ],
+      "base": {
+        "HP": 40,
+        "Attack": 80,
+        "Defense": 100,
+        "Sp. Attack": 30,
+        "Sp. Defense": 30,
+        "Speed": 20
+      }
+    },
+    {
+      "id": 77,
+      "name": "Graveler",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/077.png",
+      "type": [
+        "Rock",
+        "Ground"
+      ],
+      "base": {
+        "HP": 55,
+        "Attack": 95,
+        "Defense": 115,
+        "Sp. Attack": 45,
+        "Sp. Defense": 45,
+        "Speed": 35
+      }
+    },
+    {
+      "id": 78,
+      "name": "Golem",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/078.png",
+      "type": [
+        "Rock",
+        "Ground"
+      ],
+      "base": {
+        "HP": 80,
+        "Attack": 120,
+        "Defense": 130,
+        "Sp. Attack": 55,
+        "Sp. Defense": 65,
+        "Speed": 45
+      }
+    },
+    {
+      "id": 79,
+      "name": "Ponyta",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/079.png",
+      "type": [
+        "Fire"
+      ],
+      "base": {
+        "HP": 50,
+        "Attack": 85,
+        "Defense": 55,
+        "Sp. Attack": 65,
+        "Sp. Defense": 65,
+        "Speed": 90
+      }
+    },
+    {
+      "id": 80,
+      "name": "Rapidash",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/080.png",
+      "type": [
+        "Fire"
+      ],
+      "base": {
+        "HP": 65,
+        "Attack": 100,
+        "Defense": 70,
+        "Sp. Attack": 80,
+        "Sp. Defense": 80,
+        "Speed": 105
+      }
+    },
+    {
+      "id": 81,
+      "name": "Slowpoke",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/081.png",
+      "type": [
+        "Water",
+        "Psychic"
+      ],
+      "base": {
+        "HP": 90,
+        "Attack": 65,
+        "Defense": 65,
+        "Sp. Attack": 40,
+        "Sp. Defense": 40,
+        "Speed": 15
+      }
+    },
+    {
+      "id": 82,
+      "name": "Slowbro",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/082.png",
+      "type": [
+        "Water",
+        "Psychic"
+      ],
+      "base": {
+        "HP": 95,
+        "Attack": 75,
+        "Defense": 110,
+        "Sp. Attack": 100,
+        "Sp. Defense": 80,
+        "Speed": 30
+      }
+    },
+    {
+      "id": 83,
+      "name": "Magnemite",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/083.png",
+      "type": [
+        "Electric",
+        "Steel"
+      ],
+      "base": {
+        "HP": 25,
+        "Attack": 35,
+        "Defense": 70,
+        "Sp. Attack": 95,
+        "Sp. Defense": 55,
+        "Speed": 45
+      }
+    },
+    {
+      "id": 84,
+      "name": "Magneton",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/084.png",
+      "type": [
+        "Electric",
+        "Steel"
+      ],
+      "base": {
+        "HP": 50,
+        "Attack": 60,
+        "Defense": 95,
+        "Sp. Attack": 120,
+        "Sp. Defense": 70,
+        "Speed": 70
+      }
+    },
+    {
+      "id": 85,
+      "name": "Farfetch'd",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/085.png",
+      "type": [
+        "Normal",
+        "Flying"
+      ],
+      "base": {
+        "HP": 52,
+        "Attack": 65,
+        "Defense": 55,
+        "Sp. Attack": 58,
+        "Sp. Defense": 62,
+        "Speed": 60
+      }
+    },
+    {
+      "id": 86,
+      "name": "Doduo",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/086.png",
+      "type": [
+        "Normal",
+        "Flying"
+      ],
+      "base": {
+        "HP": 35,
+        "Attack": 85,
+        "Defense": 45,
+        "Sp. Attack": 35,
+        "Sp. Defense": 35,
+        "Speed": 75
+      }
+    },
+    {
+      "id": 87,
+      "name": "Dodrio",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/087.png",
+      "type": [
+        "Normal",
+        "Flying"
+      ],
+      "base": {
+        "HP": 60,
+        "Attack": 110,
+        "Defense": 70,
+        "Sp. Attack": 60,
+        "Sp. Defense": 60,
+        "Speed": 100
+      }
+    },
+    {
+      "id": 88,
+      "name": "Seel",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/088.png",
+      "type": [
+        "Water"
+      ],
+      "base": {
+        "HP": 65,
+        "Attack": 45,
+        "Defense": 55,
+        "Sp. Attack": 45,
+        "Sp. Defense": 70,
+        "Speed": 45
+      }
+    },
+    {
+      "id": 89,
+      "name": "Dewgong",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/089.png",
+      "type": [
+        "Water",
+        "Ice"
+      ],
+      "base": {
+        "HP": 90,
+        "Attack": 70,
+        "Defense": 80,
+        "Sp. Attack": 70,
+        "Sp. Defense": 95,
+        "Speed": 70
+      }
+    },
+    {
+      "id": 90,
+      "name": "Grimer",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/090.png",
+      "type": [
+        "Poison"
+      ],
+      "base": {
+        "HP": 80,
+        "Attack": 80,
+        "Defense": 50,
+        "Sp. Attack": 40,
+        "Sp. Defense": 50,
+        "Speed": 25
+      }
+    },
+    {
+      "id": 91,
+      "name": "Muk",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/091.png",
+      "type": [
+        "Poison"
+      ],
+      "base": {
+        "HP": 105,
+        "Attack": 105,
+        "Defense": 75,
+        "Sp. Attack": 65,
+        "Sp. Defense": 100,
+        "Speed": 50
+      }
+    },
+    {
+      "id": 92,
+      "name": "Shellder",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/092.png",
+      "type": [
+        "Water"
+      ],
+      "base": {
+        "HP": 30,
+        "Attack": 65,
+        "Defense": 100,
+        "Sp. Attack": 45,
+        "Sp. Defense": 25,
+        "Speed": 40
+      }
+    },
+    {
+      "id": 93,
+      "name": "Cloyster",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/093.png",
+      "type": [
+        "Water",
+        "Ice"
+      ],
+      "base": {
+        "HP": 50,
+        "Attack": 95,
+        "Defense": 180,
+        "Sp. Attack": 85,
+        "Sp. Defense": 45,
+        "Speed": 70
+      }
+    },
+    {
+      "id": 94,
+      "name": "Gastly",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/094.png",
+      "type": [
+        "Ghost",
+        "Poison"
+      ],
+      "base": {
+        "HP": 30,
+        "Attack": 35,
+        "Defense": 30,
+        "Sp. Attack": 100,
+        "Sp. Defense": 35,
+        "Speed": 80
+      }
+    },
+    {
+      "id": 95,
+      "name": "Haunter",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/095.png",
+      "type": [
+        "Ghost",
+        "Poison"
+      ],
+      "base": {
+        "HP": 45,
+        "Attack": 50,
+        "Defense": 45,
+        "Sp. Attack": 115,
+        "Sp. Defense": 55,
+        "Speed": 95
+      }
+    },
+    {
+      "id": 96,
+      "name": "Gengar",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/096.png",
+      "type": [
+        "Ghost",
+        "Poison"
+      ],
+      "base": {
+        "HP": 60,
+        "Attack": 65,
+        "Defense": 60,
+        "Sp. Attack": 130,
+        "Sp. Defense": 75,
+        "Speed": 110
+      }
+    },
+    {
+      "id": 97,
+      "name": "Onix",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/097.png",
+      "type": [
+        "Rock",
+        "Ground"
+      ],
+      "base": {
+        "HP": 35,
+        "Attack": 45,
+        "Defense": 160,
+        "Sp. Attack": 30,
+        "Sp. Defense": 45,
+        "Speed": 70
+      }
+    },
+    {
+      "id": 98,
+      "name": "Drowzee",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/098.png",
+      "type": [
+        "Psychic"
+      ],
+      "base": {
+        "HP": 60,
+        "Attack": 48,
+        "Defense": 45,
+        "Sp. Attack": 43,
+        "Sp. Defense": 90,
+        "Speed": 42
+      }
+    },
+    {
+      "id": 99,
+      "name": "Hypno",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/099.png",
+      "type": [
+        "Psychic"
+      ],
+      "base": {
+        "HP": 85,
+        "Attack": 73,
+        "Defense": 70,
+        "Sp. Attack": 73,
+        "Sp. Defense": 115,
+        "Speed": 67
+      }
+    },
+    {
+      "id": 100,
+      "name": "Krabby",
+      "url": "https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/100.png",
+      "type": [
+        "Water"
+      ],
+      "base": {
+        "HP": 30,
+        "Attack": 105,
+        "Defense": 90,
+        "Sp. Attack": 25,
+        "Sp. Defense": 25,
+        "Speed": 50
+      }
+    }
+  ]
