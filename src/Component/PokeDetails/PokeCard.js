@@ -115,6 +115,13 @@ export const PokeCard = () => {
     navigate(`/pokedetails/${id}`);
   };
 
+  useEffect(() => {
+      fetchData();
+  },[]);
+
+
+
+
 
   return (
     <>
