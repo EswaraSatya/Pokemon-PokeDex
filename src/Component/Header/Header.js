@@ -14,25 +14,17 @@ import Divider from "@mui/material/Divider";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 import { useNavigate } from "react-router-dom";
-import Color from "color";
 
 const Header = (props) => {
   const navigate = useNavigate();
   const [open, setOpen] = React.useState(false);
 
-  function generateLighterColor(color, percentage) {
-    const baseColor = Color(color);
-    return baseColor.lighten(percentage).hex();
-  }
-  
-  // Use the function to generate a lighter shade (e.g., 20% lighter)
-  const lighterColor = generateLighterColor(props.filterColor[0].Co, 0.3837);
 
   const darkTheme = createTheme({
     palette: {
       primary: {
         light: "#fafafa",
-        main: `${lighterColor}`,
+        main: `${props.lighterColor}`,
         dark: "#00000",
         contrastText: "#fff",
       },
@@ -87,6 +79,7 @@ const Header = (props) => {
                     flexDirection: "row-reverse",
                     width: "35px",
                     height: "30px",
+                    cursor: "pointer"
                   }}
                 />
                 <Typography

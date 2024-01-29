@@ -55,6 +55,18 @@ const Wrapper = styled.div`
   }
 `;
 
+export const debounce = (func, delay) => {
+  let timeoutId;
+  return function (...args) {
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+    }
+    timeoutId = setTimeout(() => {
+      func(...args);
+    }, delay);
+  };
+};
+
 export function formatPokemonId(id) {
   if (id >= 1 && id <= 9) {
     return '00' + id;
@@ -91,39 +103,25 @@ export const PokeCard = () => {
     console.log(PokemonData, "PokemonDataPokemonData")
   };
 
+  const debouncedSearch = debounce((value) => {
+    setSearchText(value);
+  }, 0); 
+
   const searchItems = (searchValue) => {
-    setSearchText(searchValue);
-    if (searchValue !== "") {
-      const filteredData = Object.keys(users[0]).reduce((acc, key) => {
-        const value = users[0][key].N;
-        if (value.toLowerCase().includes(searchValue.toLowerCase())) {
-          acc[key] = users[0][key];
-        }
-        return acc;
-      }, {});
-      setFilteredResults(filteredData);
-    } else {
-      setFilteredResults(users[0]);
-    }
+    debouncedSearch(searchValue);
   };
-  
 
   const routeChange = (id) => {
     navigate(`/pokedetails/${id}`);
   };
 
   useEffect(() => {
-    if (users.length == 0) {
-      // setTimeout(() => {
+    if (users.length === 0) {
       fetchData();
-      // }, 1000);
     }
-  }, []);
+  });
 
-  let newUsers = [];
-  searchText.length > 0
-    ? (newUsers = filteredResults)
-    : (newUsers = users[0]);
+
 
 
 
@@ -158,7 +156,7 @@ export const PokeCard = () => {
                 position: 'relative',
               }}
             >
-                <LazyLoad height={50} once>
+                <LazyLoad height={50} offset={100} once>
                   <img
                     src={PokeBall}
                     alt="Pokeball"
@@ -173,13 +171,13 @@ export const PokeCard = () => {
                 </LazyLoad>
               </motion.div></div>
           ) : (
-            Object.values(newUsers).map(({ id, N, T }) => {
-              if (id > 905) {
-                return null; // No images are there so
-              }
-              return (
-                <div key={id}
-                >
+            Object.values(users[0])
+              .filter(user => {
+                const value = user.N;
+                return value.toLowerCase().includes(searchText.toLowerCase()) && user.id <= 905;
+              })
+              .map(({ id, N, T }) => (
+                <div key={id}>
                   <Card
                     className="card2"
                     style={{
@@ -236,13 +234,18 @@ export const PokeCard = () => {
                         </div>
                         <Types type={T} />
                       </div>
-                      <motion.div whileHover={{ scale: 1.2 }} transition={{ type: "spring", stiffness: 400, damping: 10 }} whileTap={{ scale: 0.8 }}
+                      <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                        whileTap={{ scale: 0.8 }}
                       >
                         <CardMedia
                           onClick={() => routeChange(id)}
                           component="img"
                           height="180"
-                          image={`https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/${formatPokemonId(id)}.png`}
+                          image={`https://raw.githubusercontent.com/HybridShivam/Pokemon/master/assets/images/${formatPokemonId(
+                            id
+                          )}.png`}
                           alt="green iguana"
                           style={{
                             size: "10px",
@@ -256,11 +259,10 @@ export const PokeCard = () => {
                     </CardActionArea>
                   </Card>
                 </div>
-              )
-            })
-          )}
+              )))}          
         </AppWrapper>
       </Wrapper >
     </>
   );
 };
+
